@@ -5,7 +5,7 @@ import { HeroImg } from "../constants";
 const Hero = () => {
   return (
     <div className="container bg-[#484A4D]">
-      <div className="  flex items-center xs:flex-col justify-between pt-16 xs:pt-12">
+      <div className="  flex items-center xs:flex-col justify-between pt-20">
         <div className="w-1/2 md:w-full pb-4 text-white">
           <p className="opacity-50 xs:text-center md:text-base sm:text-sm text-xl">
             Company slogan
