@@ -11,7 +11,7 @@ import { Logo } from "../constants";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#484A4D] py-8 sm:py-4">
+    <footer  className="bg-[#484A4D] py-8 sm:py-4">
       <div className="container ">
         <div className="flex  items-center  justify-between border-b-2 pb-12 sm:pb-4 border-[#8996A6]">
           <div className="flex items-center mb-4 md:mb-0">

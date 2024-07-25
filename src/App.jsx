@@ -1,4 +1,5 @@
 import Accordion from "./containers/Accordion";
+import Contact from "./containers/Contact";
 import Footer from "./containers/Footer";
 import Gallery from "./containers/Gallery";
 import Hero from "./containers/Hero";
@@ -15,6 +16,7 @@ const App = () => {
         <WhyUs />
         <Products />
         <Gallery />
+        <Contact/>
         <Accordion />
       </main>
       <Footer />

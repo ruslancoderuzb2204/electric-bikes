@@ -32,7 +32,7 @@ const items = [
 
 const Accordion = () => (
   <section className="container accordion bg-[#404040]">
-    <div className="pb-32 md:pb-16 sm:pb-12 xs:pb-6">
+    <div className="py-32 md:py-16 sm:py-12 xs:py-6">
       <div className="pb-12 md:pb-8 sm:pb-6 xs:pb-4">
         <h2 className="text-3xl md:text-2xl sm:text-xl font-semibold text-white">
           MOST ASKED QUESTIONS

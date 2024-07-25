@@ -3,18 +3,18 @@ import { Logo } from "../constants";
 
 const Navbar = () => {
   return (
-    <section className="container bg-[#484A4D]">
-      <div className=" pt-10 flex items-center justify-between">
+    <section className="fixed inset-x-0 top-0 z-10 bg-[#484A4D]">
+      <div className="container py-6 md:py-4 flex items-center justify-between h-full">
         <Link to="/">
           <img className="cursor-pointer sm:w-12" src={Logo} alt="logo" />
         </Link>
-        <div className="gap-4 xs:gap-2 flex text-white text-base">
-          <Link>Home</Link>
-          <Link>Product</Link>
-          <Link>Gallery</Link>
-          <Link>Contact</Link>
+        <div className="gap-4 xs:gap-2 flex text-white text-2xl md:text-xl">
+          <a href="#">Home</a>
+          <a href="#product">Product</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#contact">Contact</a>
         </div>
-        <div className=" sm:hidden"></div>
+        <div className="sm:hidden"></div>
       </div>
     </section>
   );

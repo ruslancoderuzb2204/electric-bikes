@@ -37,7 +37,7 @@ const Gallery = () => {
         <div className="grid grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-4 md:pt-4 pt-10">
           {images.slice(0, showAll || !isSmallScreen ? images.length : 2).map((img, index) => (
             <div key={index} className="rounded bg-[#484A4D]">
-              <img src={img} alt={`img-${index}`} />
+              <img className="p-4 md:2" src={img} alt={`img-${index}`} />
             </div>
           ))}
         </div>

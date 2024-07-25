@@ -35,7 +35,7 @@ const Products = () => {
   }, []);
 
   return (
-    <section className="container bg-[#404040] py-8">
+    <section id="product" className="container bg-[#404040] py-8">
       <div className="flex justify-between items-center mb-6">
         <h2 className="text-3xl md:text-2xl xs:text-xl font-semibold text-white">
           HIGH QUALITY PRODUCTS
