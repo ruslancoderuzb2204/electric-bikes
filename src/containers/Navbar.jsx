@@ -8,7 +8,7 @@ const Navbar = () => {
         <Link to="/">
           <img className="cursor-pointer sm:w-12" src={Logo} alt="logo" />
         </Link>
-        <div className="gap-4 flex text-white text-base">
+        <div className="gap-4 xs:gap-2 flex text-white text-base">
           <Link>Home</Link>
           <Link>Product</Link>
           <Link>Gallery</Link>

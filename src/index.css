@@ -6,6 +6,7 @@
 body {
   font-family: 'Noto Sans', sans-serif;
   scroll-behavior: smooth;
+  background: #404040;
 }
 
 .container{
@@ -26,7 +27,11 @@ body {
     padding: 0 32px;
   }
 }
-
+@media screen and (max-width:480px) {
+  .container{
+    padding: 0 16px;
+  }
+}
 .custom-carousel .slick-prev {
   left: -40px; 
   scale: 1.5;
