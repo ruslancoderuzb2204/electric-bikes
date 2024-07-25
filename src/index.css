@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 128px;
+}
+@media screen and (max-width:1024px) {
+  .container{
+    padding: 0 64px;
+  }
+  
+}
+
+@media screen and (max-width:576px) {
+  .container{
+    padding: 0 32px;
+  }
+}
+
+.custom-carousel .slick-prev {
+  left: -40px; 
+  scale: 1.5;
+}
+
+.custom-carousel .slick-next {
+  right: -40px; 
+  scale: 1.5;
+
+}
+.accordion .ant-collapse-header-text , .ant-collapse-expand-icon{
+  color:white;
+}
+
