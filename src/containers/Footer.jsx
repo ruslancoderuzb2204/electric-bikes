@@ -6,6 +6,7 @@ import {
   FacebookOutlined,
   MailOutlined,
   PhoneOutlined,
+  TikTokOutlined
 } from "@ant-design/icons";
 import { Logo } from "../constants";
 
@@ -26,20 +27,21 @@ const Footer = () => {
             <Link to="/selling">Selling</Link>
           </div>
           <div className="flex sm:grid sm:grid-cols-3 sm:justify-start items-center sm:space-x-0 sm:gap-2 space-x-4 text-white mb-4 md:mb-0">
-            <Link target="_blank" to="mailto:ruslantilovov2@gmail.com">
+            <Link target="_blank" to="mailto:Vosilkhoja@yandex.com">
               <MailOutlined className="text-xl flex items-center justify-center cursor-pointer" />
             </Link>
-            <Link target="_blank" to="tel:+998908662204">
+            <Link target="_blank" to="tel:+998958856565">
               <PhoneOutlined className="text-xl flex items-center justify-center cursor-pointer" />
             </Link>
-            <Link target="_blank" to="https://instagram.com/_rus_lan_2204">
+            <Link target="_blank" to="https://instagram.com/temirtulpor">
               <InstagramOutlined className="text-xl flex items-center justify-center cursor-pointer" />
             </Link>
-            <TwitterOutlined className="text-xl flex items-center justify-center cursor-pointer" />
-            <Link target="_blank" to="https://t.me//ruslantilavov">
+            <Link target="_blank" to="https://t.me//temirtulpor">
               <i className="fa-brands text-xl fa-telegram"></i>
             </Link>
-            <FacebookOutlined className="text-xl flex items-center justify-center cursor-pointer" />
+            <Link target="_blank" to="" >
+              <TikTokOutlined className="text-xl flex items-center justify-center cursor-pointer" />
+            </Link>
           </div>
         </div>
       </div>

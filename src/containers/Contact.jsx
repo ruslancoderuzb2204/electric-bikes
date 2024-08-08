@@ -13,28 +13,28 @@ const Contact = () => {
         <h2 className="font-semibold text-3xl md:text-2xl sm:text-xl pb-6 md:pb-4 sm:pb-2 text-[#404040]">
           Contact information
         </h2>
-        <a className="cursor-pointer text-base " href="">
+        <a className="cursor-pointer text-base " href="https://yandex.uz/maps/org/temir_tulpor/7918105233/?ll=69.236932%2C41.191727&z=13">
           <i className="fa-solid fa-location-dot"></i>
-          Uzbekistan , Tashkent , Mirzo Ulug'bek
+          Tashkent , Yangihayot tumani
         </a>
         <div className="flex mt-4 md:flex-col md:items-start md:mt-2 xs:mt-1 items-center justify-between">
-          <a className="cursor-pointer text-base " href="tel:+998908662204">
+          <a className="cursor-pointer text-base " href="tel:+998958856565">
             <PhoneOutlined />
-            +998908662204
+            +998958856565
           </a>
-          <a className="cursor-pointer text-base " href="tel:+998971252004">
+          <a className="cursor-pointer text-base " href="tel:+998983076565">
             <PhoneOutlined />
-            +998971252004
+            +998983076565
           </a>
         </div>
         <div className="flex md:flex-col md:items-start items-center justify-between">
-          <a className="cursor-pointer text-base " href="tel:+99890123456">
+          <a className="cursor-pointer text-base " href="tel:+998555146565">
             <PhoneOutlined />
-            +99890123456
+            +998555146565
           </a>
-          <a className="cursor-pointer text-base " href="mailto:ruslantilovov2@gmail.com">
+          <a className="cursor-pointer text-base " href="mailto:Vosilkhoja@yandex.com">
             <MailOutlined />
-            ruslantilovov@gmail.com
+            Vosilkhoja@yandex.com
           </a>
         </div>
       </div>

@@ -14,11 +14,9 @@ const Hero = () => {
             TEMIR TULPOR
           </h2>
           <p className="opacity-70 xs:text-center md:text-sm text-base">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco.
+          Temir Tulpor – Qulay narxda sifatli skuterlar! 100+ model, jahon bozorida tan olingan Xitoy mahsulotlari. Farzandingiz va o'zingiz uchun ajoyib tanlov! Bugun qo'ng'iroq qiling va o'z skuterga ega bo'ling!
           </p>
-          <Link target="_blank" to="https://t.me//ruslantilavov">
+          <Link target="_blank" to="https://t.me//skuter_arenda">
             <PrimaryButton text="Order now" />
           </Link>
         </div>
