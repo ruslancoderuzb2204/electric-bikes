@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ProductCard from "../components/ProductCard";
 import { Carousel } from "antd";
+import { products } from "../data/productsData";
 
 const contentStyle = {
   color: "#fff",
@@ -52,13 +53,9 @@ const Products = () => {
         slidesToScroll={1}
         slidesToShow={slidesToShow}
       >
-        <ProductCard contentStyle={contentStyle} />
-        <ProductCard contentStyle={contentStyle} />
-        <ProductCard contentStyle={contentStyle} />
-        <ProductCard contentStyle={contentStyle} />
-        <ProductCard contentStyle={contentStyle} />
-        <ProductCard contentStyle={contentStyle} />
-        <ProductCard contentStyle={contentStyle} />
+        {products.map((product) => (
+          <ProductCard product={product} />
+        ))}
       </Carousel>
     </section>
   );
