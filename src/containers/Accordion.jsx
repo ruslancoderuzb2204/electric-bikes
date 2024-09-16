@@ -1,32 +1,24 @@
 import { Collapse } from "antd";
 const { Panel } = Collapse;
 
-const text = `
-  A dog is a type of domesticated animal.
-  Known for its loyalty and faithfulness,
-  it can be found as a welcome guest in many households across the world.
-`;
-
 const items = [
   {
     key: "1",
-    label: "What kind of E-bike models do you have? ",
-    content: text,
+    label: "Skuterlarni ijaraga olish uchun qanday hujjatlar kerak? ",
+    content:
+      "Ijara shartnomasi uchun, shaxsni tasdiqlovchi hujjat (passport), kurierlar sumkasi kodi va ijara uchun tanlagan skuteringizga qarab depozit summasi kerak bo’ladi.",
   },
   {
     key: "2",
-    label: "What kind of E-bike models do you have? ",
-    content: text,
+    label: "Nasiya savdoga qanday qilib skuter olish mumkin? ",
+    content:
+      "Nasiya savdoga skuter harid qilish uchun, hamkorlarimiz uzum nasiya, zoodpay yoki anor bank platformalaridan ro’yxatdan o’tishingiz lozim. Plastik kartadagi pul aylanmasiga qarab sizga limit ajratiladi va ushbu limit orqali mahsulotimizni 12 oygacha muddatli to’lovga harid qilishingiz mumkin bo’ladi.",
   },
   {
     key: "3",
-    label: "What kind of E-bike models do you have? ",
-    content: text,
-  },
-  {
-    key: "4",
-    label: "What kind of E-bike models do you have? ",
-    content: text,
+    label: "Yetkazib berish hizmati mavjudmi?  ",
+    content:
+      "Siz barcha mahsulotlarimizni O’zbekiston va Qoraqalpog’iston respublikalarining istalgan hududidan turib xarid qilishingiz mumkin. Sizga qisqa vaqt ichida, asl holatida yetkazib beramiz.",
   },
 ];
 
@@ -35,7 +27,7 @@ const Accordion = () => (
     <div className="py-32 md:py-16 sm:py-12 xs:py-6">
       <div className="pb-12 md:pb-8 sm:pb-6 xs:pb-4">
         <h2 className="text-3xl md:text-2xl sm:text-xl font-semibold text-white">
-          MOST ASKED QUESTIONS
+          KO'P BERILADIGAN SAVOLLAR
         </h2>
       </div>
       <Collapse

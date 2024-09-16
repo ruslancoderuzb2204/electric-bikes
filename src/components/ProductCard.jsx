@@ -1,10 +1,10 @@
 const ProductCard = ({ contentStyle, product }) => {
   return (
-    <div style={contentStyle} className="pt-10 mx-2">
+    <div style={contentStyle} className="pt-10 xs:pt-3 mx-2">
       <div className="flex flex-col">
         <div className="flex items-center justify-center">
           <img
-            className="bg-[#484A4D] w-full h-[450px] md:h-[400px]  rounded p-4"
+            className="bg-[#484A4D] w-full h-[450px] md:h-[400px] xs:h-[350px]  rounded p-4"
             src={product.img}
             alt="img"
           />

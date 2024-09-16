@@ -27,10 +27,10 @@ const Gallery = () => {
 
   return (
     <section id="gallery" className="container bg-[#404040]">
-      <div className="pb-40 md:pb-24 sm:pb-16 xs:pb-6">
+      <div className="md:pb-24 sm:pb-16 xs:pb-6">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-3xl md:text-2xl font-semibold text-white">
-            Gallery
+           Suratlar
           </h2>
         </div>
         <div className="grid grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-4 md:pt-4 pt-10">

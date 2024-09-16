@@ -48,3 +48,11 @@ body {
   color:white;
 }
 
+.ant-drawer-content{
+  background-color: #404040 !important;
+}
+
+.ant-drawer-close{
+  color:white  !important;
+  scale: 1.2;
+}
