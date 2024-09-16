@@ -1,13 +1,15 @@
+import { Img1, Img2 } from "../constants";
+
 export const products = [
     {
       name: "Honda Activa 6G",
       price: "$850",
-      img: "https://bd.gaadicdn.com/processedimages/honda/activa-6g/source/activa-6g65e80a7b08ce2.jpg"
+      img: Img1
     },
     {
       name: "Amazon Basics Scooter",
       price: "$500",
-      img: "https://m.media-amazon.com/images/I/61gyMVXZw3L._SL1500_.jpg"
+      img: Img2
     },
     {
       name: "Solar Mobility Electric Scooter",

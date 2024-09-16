@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import SecondaryButton from "../components/SecondaryButton";
-import { HeroImg } from "../constants";
+import { HeroImg, Img1, Img2 } from "../constants";
 
 const Gallery = () => {
   const [showAll, setShowAll] = useState(false);
@@ -8,9 +8,9 @@ const Gallery = () => {
 
   const images = [
     "https://bd.gaadicdn.com/processedimages/honda/activa-6g/source/activa-6g65e80a7b08ce2.jpg",
-    "https://m.media-amazon.com/images/I/61gyMVXZw3L._SL1500_.jpg",
+    Img1,
     "https://solaremobility.com/616-medium_default/electric-scooter-50cc-2000w-72v.jpg",
-    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDEyQ469ou-QuDGvdUaPZoF-Y8ynENh_FRfg&s",
+    Img2,
     "https://shop.yamaha-motor-india.com/cdn/shop/products/copper_600x.png?v=1676869087",
     "https://www.scooter.co.uk/new_scooters/new/82-2.jpg",
   ];
@@ -30,15 +30,19 @@ const Gallery = () => {
       <div className="md:pb-24 sm:pb-16 xs:pb-6">
         <div className="flex justify-between items-center mb-6">
           <h2 className="text-3xl md:text-2xl font-semibold text-white">
-           Suratlar
+            Suratlar
           </h2>
         </div>
         <div className="grid grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-4 md:pt-4 pt-10">
           {images
             .slice(0, showAll || !isSmallScreen ? images.length : 2)
             .map((img, index) => (
-              <div key={index} className="rounded bg-[#484A4D]">
-                <img className="h-full w-full object-cover" src={img} alt={`img-${index}`} />
+              <div key={index} className="rounded-lg p-2 bg-[#484A4D] h-full">
+                <img
+                  className="h-full w-full rounded-lg object-cover"
+                  src={img}
+                  alt={`img-${index}`}
+                />
               </div>
             ))}
         </div>
